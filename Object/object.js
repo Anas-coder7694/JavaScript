@@ -5,4 +5,13 @@ const object ={
 }
 
 // console.log(object)
-document.getElementById('demo').innerHTML='Name : ' + object.name + '';
+document.getElementById('object').innerHTML='Name : ' + object.name + '';
+
+
+const new_obj = new Object();
+new_obj.name = 'Jane Doe';
+
+
+document.getElementById('new_object').innerHTML='Name : ' + new_obj.name + '';
+
+
