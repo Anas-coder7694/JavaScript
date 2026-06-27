@@ -1,0 +1,24 @@
+
+<html>
+<body>
+<h1>JavaScript Asyncronous Flow</h1>
+
+<p id="demo">Set time out is being executed</p>
+
+<script>
+// Function to display some data
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some + " ";
+}
+
+function done(value) {
+  myDisplayer(value);
+}
+
+setTimeout(function() {
+  done('Set time has been executed' );
+}, 5000);
+</script>
+
+</body>
+</html>
